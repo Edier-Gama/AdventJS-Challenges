@@ -4,5 +4,8 @@ const countHours = (year, holidays) => {
       const isWorkDay = dayOfWeek !== 0 && dayOfWeek !== 6;
       return isWorkDay ? overtimeHours + 2 : overtimeHours;
     }, 0);
-  };
+};
   
+
+
+ 
